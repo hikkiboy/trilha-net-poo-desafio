@@ -1,13 +1,11 @@
 ﻿using DesafioPOO.Models;
 
-Iphone aifone = new Iphone();
+Iphone aifone = new Iphone("111111111","iPHONE 11", "imei", 10 );
 
-aifone.Numero = "111111111";
 aifone.Ligar();
 aifone.InstalarAplicativo("duolingo");
 
-Nokia nokeria = new Nokia();
+Nokia nokeria = new Nokia("222222","Tijolão 11", "imei", 10 );
 
-nokeria.Numero = "222222";
 nokeria.Ligar();
 nokeria.InstalarAplicativo("duolingo");
